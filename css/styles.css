@@ -34,7 +34,6 @@ body {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .header {
@@ -94,7 +93,7 @@ body {
 }
 .header-link:hover,
 .header-link:focus
-.header-link:visited {
+ {
     color: var(--accent-color);
 }
 
@@ -111,6 +110,7 @@ body {
     align-items: center;
     
 }
+
 .contact-list {
     display: flex;
     margin-left: auto;
@@ -121,23 +121,17 @@ body {
 }
 .header-contact:hover,
 .header-contact:focus,
-.footer-contact:hover,
-.footer-contact:focus,
+
 .map:hover,
 .map:focus
-
  {
     color: var(--accent-color);
 }
 
 .contact-icon {
-    fill:#757575;
+    fill:currentColor;
     margin-right: 10px;
 }
-.contact-icon:hover {
-    fill: var(--accent-color);
-}
-
 
 
 /* hero */
@@ -147,8 +141,8 @@ body {
     padding: 200px 0; 
     background-image: linear-gradient( 
         to right,
-        rgba(47, 48, 58, 0.8),
-        rgba(47, 48, 58, 0.8)),  
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),  
         url("../images/bg-hero.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -217,23 +211,21 @@ body {
 }
 
 .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(245, 244, 250, 1);
     height: 120px;
     width: 270px;
     margin-bottom: 30px;
+    border-radius: 4px;
     
 }
-
-
-
-
 
 .preference-icon {
     width: 70px;
     height: 70px;
-    margin: 25px 100px;
 }
-
 
 
 .visually-hidden {
@@ -339,28 +331,27 @@ body {
     display: flex;
     width: 100%;
     height: 100%;
-    border-radius: 50%;
-    /* background-color: #FFFFFF; */
+    border-radius: 50%; 
     background-color: #FFFFFF;
     justify-content: center;
     align-items: center;
 }
 
-
 .team-soc-link {
     fill: #AFB1B8;
 }
 
-
-.team-soc-link:hover{
+.team-soc-link:hover
+.team-soc-link:focus {
     background-color: var(--accent-color);
     fill: #FFFFFF;
 }
 
+
 /* Clients */
 .clients-title {
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     
@@ -368,41 +359,42 @@ body {
     margin-bottom: 50px;
 }
 
-.clients-icon {
-    fill:rgba(175, 177, 184, 1);
-}
-
-.clients-icon:hover {
-    fill: var(--accent-color);
-}
-
-.clients-item:hover{
-    border: 1px solid var(--accent-color);
-}
-
-.clients-list{
+.clients-list {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .clients-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 170px;
+    width: 1750px;
     height: 92px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    cursor: pointer;
 }
 
-.clients-item:not(:last-child){
+.clients-item:not(:last-child) {
     margin-right: 30px;
 }
 
+.clients-link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #AFB1B8;
+}
 
+.clients-link:hover,
+.clients-link:focus {
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
 
+.clients-icon{
+    fill: currentColor;
+}
 
 
 
@@ -445,6 +437,16 @@ body {
     font-size: 14px;
     line-height: 1.7;
 }
+.footer-contact:hover,
+.footer-contact:focus{
+    color: var(--accent-color);
+}
+
+.soc-networks {
+    height: 80px;
+    width: 206px;
+    margin-left: 70px;
+}
 
 .footer-title{
     font-size: 14px;
@@ -454,8 +456,6 @@ body {
     color: #FFFFFF;
     margin-bottom: 20px;
 }
-
-
 
 .footer-soc-list {
     display: flex;
@@ -480,31 +480,18 @@ body {
     background: rgba(255, 255, 255, 0.1);
     justify-content: center;
     align-items: center; 
+    color: #FFFFFF;
 }
 
-.footer-soc-link{
-    fill:#ffffff;
-}
 
-.footer-soc-link:hover{
+.footer-soc-link:hover
+.footer-soc-link:focus {
     background-color: var(--accent-color);
-
 }
 
-
-.soc-networks {
-    height: 80px;
-     width: 206px;
-     margin-left: 70px;
+.footer-soc-icons{
+    fill: currentColor;
 }
-
-
-
-
-
-
-
-
 
 /* PORTFOLIO */
 .filter{
@@ -522,12 +509,12 @@ body {
 }
 .grid-item{
     width: 370px;
-    /* flex-basis: calc((100% - 60px) / 3); */
-   margin: 15px;
+    margin: 15px;
 
 }
 
-.grid-item:hover{
+.grid-item:hover,
+.grid-item:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .headline {
