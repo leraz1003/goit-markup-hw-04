@@ -340,7 +340,7 @@ body {
     fill: currentColor;
 }
 
-.team-soc-link:hover
+.team-soc-link:hover,
 .team-soc-link:focus {
     background-color: var(--accent-color);
     fill: #FFFFFF;
@@ -480,7 +480,7 @@ body {
 }
 
 
-.footer-soc-link:hover
+.footer-soc-link:hover,
 .footer-soc-link:focus {
     background-color: var(--accent-color);
 }
