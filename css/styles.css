@@ -278,8 +278,6 @@ body {
 
 .team-section{
     display: block;
-    max-width: 1600px;
-    height: 708px;
     margin-left: auto;
     margin-right: auto;
     background: #F5F4FA;
@@ -401,11 +399,8 @@ body {
 /* footer */
 .footer {
     display: block;
-    max-width: 1600px;
-    height: 252px;
     margin-left: auto;
     margin-right: auto;
-    
     background-color: #2F303A;
     padding: 60px 0;
 
