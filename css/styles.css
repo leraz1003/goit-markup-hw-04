@@ -333,10 +333,11 @@ body {
     background-color: #FFFFFF;
     justify-content: center;
     align-items: center;
+    color: #AFB1B8;
 }
 
 .team-soc-link {
-    fill: #AFB1B8;
+    fill: currentColor;
 }
 
 .team-soc-link:hover
