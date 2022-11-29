@@ -352,7 +352,6 @@ body {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    
     color: var(--primary-text-color);
     margin-bottom: 50px;
 }
@@ -403,7 +402,6 @@ body {
     margin-right: auto;
     background-color: #2F303A;
     padding: 60px 0;
-
 }
 
 .footer-conteiner{
@@ -437,6 +435,8 @@ body {
     color: var(--accent-color);
 }
 
+
+
 .soc-networks {
     height: 80px;
     width: 206px;
@@ -469,12 +469,12 @@ body {
 
 .footer-soc-link {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
-    justify-content: center;
-    align-items: center; 
+    background-color: rgba(255, 255, 255, 0.1);
     color: #FFFFFF;
 }
 
@@ -487,6 +487,9 @@ body {
 .footer-soc-icons{
     fill: currentColor;
 }
+
+
+
 
 /* PORTFOLIO */
 .filter{
